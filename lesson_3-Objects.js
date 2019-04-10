@@ -5,7 +5,7 @@
  * In Javascript, everything else is an Object!
  ****************************************************************************/
 
-var naruto = {
+let naruto = {
   name:     'Naruto',
   lastName: 'Uzumaki',
   age:      12,
@@ -13,7 +13,7 @@ var naruto = {
   height:   145
 };
 
-var sakura = {
+let sakura = {
   name:     'Sakura',
   lastName: 'Hanuro',
   age:      12,
@@ -21,7 +21,7 @@ var sakura = {
   height:   148
 };
 
-var sasuke = {
+let sasuke = {
   name:     'Sasuke',
   lastName: 'Uchiha',
   age:      12,
@@ -29,7 +29,7 @@ var sasuke = {
   height:   150
 };
 
-var kakashi = {
+let kakashi = {
   name:     'Kakashi',
   lastName: 'Hatake',
   age:      26,
@@ -37,7 +37,7 @@ var kakashi = {
   height:   181
 };
 
-var team = {
+let team = {
   name:     'Seventh team',
   sensei:   kakashi,
   students: [ naruto, sakura, sasuke ]
@@ -46,7 +46,7 @@ var team = {
 console.log(team);
 
 /*
-var ninja = new Object();
+let ninja = new Object();
 
 ninja.name      = 'Naruto';
 ninja.lastName  = 'Uzumaki';
