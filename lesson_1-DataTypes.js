@@ -1,6 +1,6 @@
 /****************************************************************************
- Numbers:
-    They represent... well... numbers
+ * Numbers:
+ * They represent... well... numbers
 ****************************************************************************/
 
 /*
@@ -33,9 +33,9 @@ console.log(Math.PI);
 
 
 /****************************************************************************
-Strings:
-    They represent text!
-    They are always enclosed by " "
+ * Strings:
+ * They represent text!
+ * They are always enclosed by " "
 ****************************************************************************/
 
 console.log("My name is Uzumaki Naruto!");
@@ -44,7 +44,7 @@ console.log("And one day I'll become Hokage");
 /*
   You can add two or more strings!
 */
-console.log("My name is Uzumaki Naruto!" + " " + "And one day I'll become Hokage");
+console.log("My name is Uzumaki Naruto! " + "And one day I'll become Hokage");
 
 /*
   You can't multiply a string with a number!
@@ -58,14 +58,14 @@ console.log("My name is Uzumaki Naruto!" + 1);
 
 
 /****************************************************************************
-Up to this point, we have been printing pure raw data types.
-There is another way to work with numbers, string and other data types...
-
-Variable assignment!!
-
-    What's this? You can copy a value into a variable.
-    This value gets stored on your computers memory, so you can work with
-    it later
+ * Up to this point, we have been printing pure raw data types.
+ * There is another way to work with numbers, string and other data types...
+ *
+ * Variable assignment!!
+ *
+ * What's this? You can copy a value into a variable.
+ * This value gets stored on your computers memory, so you can work with
+ * it later
 ****************************************************************************/
 
 let oneHundred = 100;
@@ -87,13 +87,40 @@ console.log(willOfFire);
 
 
 /****************************************************************************
- Booleans:
-    They represent True or False.
-    Used to define conditions within
-    the code.
+ * Booleans:
+ * They represent true or false.
+ * Used to define conditions within
+ * the code.
 ****************************************************************************/
 
 /*
   The following relational operators return a Boolean.
   Relational operators are used for comparison between variables.
 */
+console.log(100 >  2);
+console.log(100 >= 2);
+console.log(100 <= 2);
+console.log(100 <  2);
+
+console.log(100 === 2);
+console.log(100 !== 2);
+
+
+/****************************************************************************
+ * Null:
+ * It represents the intentional absence of any object value
+ ****************************************************************************/
+
+let nullVariable = null;
+
+console.log(nullVariable);
+
+
+/****************************************************************************
+ * Undefined:
+ * A declared variable that has not been given a value
+ ****************************************************************************/
+
+let undefinedVariable;
+
+console.log(undefinedVariable);

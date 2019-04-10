@@ -1,3 +1,10 @@
+/****************************************************************************
+ * On the first lesson we covered Numbers, Strings, Booleans and other
+ * data types. These are called the primitive data types.
+ *
+ * In Javascript, everything else is an Object!
+ ****************************************************************************/
+
 var naruto = {
   name:     'Naruto',
   lastName: 'Uzumaki',
