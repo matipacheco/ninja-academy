@@ -54,7 +54,7 @@ console.log("My name is Uzumaki Naruto!" * 2);
 /*
   You can add a string with a number! But the result es kinda weird
 */
-console.log("My name is Uzumaki Naruto!" + 1);
+console.log("0" + 1);
 
 
 /****************************************************************************

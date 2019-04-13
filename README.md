@@ -51,7 +51,7 @@ You can't multiply a string with a number!
 
 You can add a string with a number! But the result es kinda weird
 
-    console.log("My name is Uzumaki Naruto!" + 1);
+    console.log("0" + 1);
 
 
 ### Variable assignment
