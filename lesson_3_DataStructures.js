@@ -48,6 +48,24 @@ let array = [
 console.log(array);
 
 
+/****************************************************************************
+ * There's an advantage on using arrays. We can retrieve a particular element
+ * of the array by it's index! Lets say we have an array with _n_ elements;
+ * the first element of the array is in the 0-th position/index,
+ * while the n-th element is in the n-1-th position.
+ *
+ * Let's see an example of this:
+ ****************************************************************************/
+
+console.log(students[0] === ninjas.naruto);
+console.log(students[1] === ninjas.sakura);
+console.log(students[2] === ninjas.sasuke);
+
+
+/****************************************************************************
+ * Let's define the following team object
+ ****************************************************************************/
+
 let sensei = ninjas.kakashi;
 
 let team = {
@@ -56,4 +74,34 @@ let team = {
   students: students
 };
 
-console.log(team);
+
+/****************************************************************************
+ * How could we list all the students that are part of the team?
+ * We need to iterate through the students array to retrieve its elements.
+ *
+ * Iteration allows us to move across all the elements of an array, so we
+ * can use its data to perform actions. Here I'm gonna show a couple of way
+ * to do this.
+ ****************************************************************************/
+
+for (let index = 0; index < team.students.length; index++) {
+  console.log(team.students[index].name);
+}
+
+for (let student of team.students) {
+  console.log(student.name);
+}
+
+/****************************************************************************
+ * The following iterators may not be understood so easily since we haven't
+ * covered methods yet (they're coming right after this!), but I'm gonna
+ * show them anyway.
+ ****************************************************************************/
+
+team.students.forEach(function (student) {
+  console.log(student.name)
+});
+
+team.students.map(function (student) {
+  console.log(student.name)
+});
