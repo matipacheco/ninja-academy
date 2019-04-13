@@ -274,9 +274,9 @@ There's an advantage on using arrays. We can retrieve a particular element of th
 
 Let's see an example of this:
 
-    console.log(students[0] === ninjas.naruto);
-    console.log(students[1] === ninjas.sakura);
-    console.log(students[2] === ninjas.sasuke);
+    console.log(students[0] === ninjas.naruto); // true
+    console.log(students[1] === ninjas.sakura); // true
+    console.log(students[2] === ninjas.sasuke); // true
 
 ### Iterating through an array
 
