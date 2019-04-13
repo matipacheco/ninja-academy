@@ -1,6 +1,14 @@
-# Data Types
+# Ninja Academy
 
-## Numbers
+A time ago my wife and daughter asked me for programming lessons, so I came up with a (I think) funny way to teach them, mixing Javascript with Naruto.
+
+This is for them! ❤️
+
+![shuriken](./public/naurto-family.gif) 
+
+## Data Types
+
+### Numbers
 
 They represent... well... numbers
 
@@ -26,7 +34,7 @@ Up to this point we have only been working with integers numbers. It also exist 
 
     console.log(Math.PI);
 
-## Strings
+### Strings
 
 They represent text! They are always enclosed by " "
 
@@ -46,7 +54,7 @@ You can add a string with a number! But the result es kinda weird
     console.log("My name is Uzumaki Naruto!" + 1);
 
 
-## Variable assignment
+### Variable assignment
 
 Up to this point, we have been printing pure raw data types. There is another way to work with numbers, string and other data types... Variable assignment
 
@@ -82,7 +90,7 @@ The following relational operators return a Boolean. Relational operators are us
     console.log(100 === 2);
     console.log(100 !== 2);
 
-## Null
+### Null
 
 It represents the intentional absence of any object value
  
@@ -90,7 +98,7 @@ It represents the intentional absence of any object value
 
     console.log(nullVariable);
 
-## Undefined
+### Undefined
 
 A declared variable that has not been given a value
      
@@ -98,11 +106,17 @@ A declared variable that has not been given a value
     
     console.log(undefinedVariable);
 
-# Data Structures
+## Objects
 
-# Objects
+On the first lesson we covered Numbers, Strings, Booleans and other data types. These are called the primitive data types. **In Javascript, everything else is an Object!**
 
-On the first lesson we covered Numbers, Strings, Booleans and other data types. These are called the primitive data types. In Javascript, everything else is an Object!
+Since we are in a ninja academy, lets think about shuriken for a minute.
+
+![shuriken](./public/sasuke-shuriken.gif)
+
+In real life, a shuriken its an object!_. Each shuriken have its own color, weight, shape and may have been forged from a different metal . All of this properties make ~~a shuriken~~ an object unique, and different form the others.
+
+With that in mind, lest take a look at the following objects:
 
     let naruto = {
       name:     'Naruto',
@@ -136,12 +150,14 @@ On the first lesson we covered Numbers, Strings, Booleans and other data types. 
       height:   181
     };
     
-    let team = {
-      name:     'Seventh team',
-      sensei:   kakashi,
-      students: [ naruto, sakura, sasuke ]
-    };
-    
-    console.log(team);
+Each object above represents a ninja. Each ninja has it own name, age, weight and height. This is the legendary shinobi Team 7 of Konoha!
 
-# Methods
+![shuriken](./public/team-kakashi.gif)
+
+### Initializing objects
+
+There are different ways to define an object.
+
+## Data Structures
+
+## Methods
