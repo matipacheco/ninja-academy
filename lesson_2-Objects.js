@@ -52,7 +52,7 @@ ninja.age       = 12;
 ninja.weight    = 40;
 ninja.height    = 145;
 
-console.log(ninja);
+// console.log(ninja);
 
 function Ninja(name, lastName, age, weight, height) {
   this.name     = name;
@@ -64,7 +64,7 @@ function Ninja(name, lastName, age, weight, height) {
 
 ninja = new Ninja('Naruto', 'Uzumaki', 12, 40, 145);
 
-console.log(ninja);
+// console.log(ninja);
 
 
 /****************************************************************************
@@ -79,7 +79,7 @@ let age      = ninja.age;
 let name     = ninja.name;
 let lastName = ninja.lastName;
 
-console.log("Our ninja is " + age + " year old, and his name is " + name + " " + lastName);
+// console.log("Our ninja is " + age + " year old, and his name is " + name + " " + lastName);
 
 
 /****************************************************************************
@@ -91,9 +91,14 @@ console.log("Our ninja is " + age + " year old, and his name is " + name + " " +
 ninja.village = "Konoha";
 ninja.sensei  = kakashi;
 
-console.log(ninja);
+// console.log(ninja);
 
 /****************************************************************************
  * Wait, WHAT?... Yes!, an object can have other object as one of
  * its fields/properties.
  ****************************************************************************/
+
+exports.naruto  = naruto;
+exports.sakura  = sakura;
+exports.sasuke  = sasuke;
+exports.kakashi = kakashi;

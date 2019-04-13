@@ -8,6 +8,8 @@ This is for them! ❤️
 
 ## Data Types
 
+In this section we will cover the so called primitive data types. These are: _numbers_, _strings_, _booleans_, _null_ and _undefined_.
+
 ### Numbers
 
 They represent... well... numbers
@@ -118,7 +120,7 @@ In real life, a shuriken its an object!_. Each shuriken have its own color, weig
 
 With that in mind, lest take a look at the following objects:
 
-    let naruto = {
+    const naruto = {
       name:     'Naruto',
       lastName: 'Uzumaki',
       age:      12,
@@ -126,7 +128,7 @@ With that in mind, lest take a look at the following objects:
       height:   145
     };
     
-    let sakura = {
+    const sakura = {
       name:     'Sakura',
       lastName: 'Hanuro',
       age:      12,
@@ -134,7 +136,7 @@ With that in mind, lest take a look at the following objects:
       height:   148
     };
     
-    let sasuke = {
+    const sasuke = {
       name:     'Sasuke',
       lastName: 'Uchiha',
       age:      12,
@@ -142,7 +144,7 @@ With that in mind, lest take a look at the following objects:
       height:   150
     };
     
-    let kakashi = {
+    const kakashi = {
       name:     'Kakashi',
       lastName: 'Hatake',
       age:      26,
@@ -182,7 +184,7 @@ An object doesn't necessarily need to be created following the structure shown a
 
 ### Working with objects
 
-As we said before, the advantage of using an object, is to encapsulate a certain group of properties that are unique from the rest. We can access each and one of these properties like this:
+As I said before, the advantage of using an object, is to encapsulate a certain group of properties that are unique from the rest. We can access each and one of these properties like this:
     
      let age      = ninja.age;
      let name     = ninja.name;
@@ -218,5 +220,55 @@ And we don't have to settle with the properties that the object initially has. W
 Wait, WHAT?... Yes!, an object can have other object as one of its fields/properties.
 
 ## Data Structures
+
+As I said before, besides the primitives data types, everything else is an object. Some of this objects might come really handy we it comes to programming.
+
+In this sections we'll talk about Arrays!
+
+### Arrays
+
+An Array is a special data structure. It is used to store multiple values in a single variable.
+
+Arrays are pretty easy to identify, since they always start and end with square brackets ([]). Arrays can hold more than one value at a time, separating all of them with a comma.
+
+So, if we have a list of ninjas, storing those ninjas in single variables would look like this:
+
+    let ninjas = require("./lesson_2-Objects");
+    
+    /****************************************************************************
+     * Why are we doing this?
+     * Because in the previous lesson we ended up exporting some of the variables
+     * we defined.
+     *
+     * exports.naruto  = naruto;
+     * exports.sakura  = sakura;
+     * exports.sasuke  = sasuke;
+     * exports.kakashi = kakashi;
+     ****************************************************************************/
+    
+    let students = [
+        ninjas.naruto,
+        ninjas.sakura,
+        ninjas.sasuke
+    ];
+    
+    console.log(students);
+
+It's important to point out that the items that are stored in an array, doesn't necessarily need to be items of the same type. The following array is also valid:
+ 
+    let array = [
+      ninjas.naruto,
+      "Konoha",
+      true,
+      null,
+      7
+    ];
+    
+    console.log(array);
+
+### Working with arrays
+ 
+
+
 
 ## Methods
