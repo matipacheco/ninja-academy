@@ -1,6 +1,6 @@
 # Ninja Academy
 
-A time ago my wife and daughter asked me for programming lessons, so I came up with a (I think) funny way to teach them, mixing Javascript with Naruto.
+A time ago my wife and daughter asked me for programming lessons, so I came up with a (I think) funny way to teach them... Javascript + Naruto!
 
 This is for them! ❤️
 
@@ -116,7 +116,7 @@ Since we are in a ninja academy, lets think about shuriken for a minute.
 
 ![shuriken](./public/sasuke-shuriken.gif)
 
-In real life, a shuriken its an object!_. Each shuriken have its own color, weight, shape and may have been forged from a different metal . All of this properties make ~~a shuriken~~ an object unique, and different form the others.
+In real life, a shuriken its an object!. Each shuriken have its own color, weight, shape and may have been forged from a different metal . All of this properties make ~~a shuriken~~ an object unique, and different form the others.
 
 With that in mind, lest take a look at the following objects:
 
@@ -349,11 +349,37 @@ As we can see, `kageBunshinNoJutsu(10)` return an array with the Naruto object r
 
 ![clones](./public/kage-bunshin.gif)
 
+### Arrow functions
 
+Arrow functions, also called _fat arrow functions_ are a shorter way of declaring a method in the conventional way. With that in mind, these methods:
 
+    function() {...}     function(a) {...}      function(a,b) {...}
+
+can be replaced with:
+
+    () => {}          a => {}            (a,b) => {} 
+
+In this academy I will not cover arrow functions, but you can read more about it in the following links:
+- [Anonymous functions](https://en.wikibooks.org/wiki/JavaScript/Anonymous_functions)
+- [Arrow funcitons](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26)
+
+#### Note
+
+Now that we now what a method is, let me tell you that there is a lot of methods available for all the data types and data structures we have covered in this ninja academy.
+
+You can found some of them here!
+
+- [Number methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+- [String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Object methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## The _this_ keyword
 
 
 
-![happy](./public/naruto-happy.gif)
+## The end
+
+The time has come, little Genin. Go on and live your own adventures! ✊🏿
+
+![happy](./public/kurama-fist.gif)
