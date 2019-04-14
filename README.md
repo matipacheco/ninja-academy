@@ -14,20 +14,20 @@ In this section we will cover the so called primitive data types. These are: _nu
 
 They represent... well... numbers
 
-As expected you can add and subtract using the + and - operators
+As expected you can add and subtract using the `+` and `- operators
 
     console.log(100 + 2);
     console.log(100 - 2);
 
-The * operator is used for multiplication
+The `*` operator is used for multiplication
 
     console.log(100 * 2);
 
-The / operator is used for multiplication
+The `/` operator is used for multiplication
 
     console.log(100 / 2);
 
-The % represents the modulus operator. It returns the division remainder
+The `%` represents the modulus operator. It returns the division remainder
 
     console.log(100 % 2);
     console.log(100 % 3);
@@ -38,7 +38,7 @@ Up to this point we have only been working with integers numbers. It also exist 
 
 ### Strings
 
-They represent text! They are always enclosed by " "
+They represent text! They are always enclosed by `" "`
 
     console.log("My name is Uzumaki Naruto!");
     console.log("And one day I'll become Hokage");
@@ -80,7 +80,7 @@ You can even make a variable out of other variables
 
 ## Booleans
 
-They represent true or false. The are used to define conditions within the code.
+They represent `true` or `false`. The are used to define conditions within the code.
 
 The following relational operators return a Boolean. Relational operators are used for comparison between variables.
 
@@ -107,6 +107,8 @@ A declared variable that has not been given a value
     let undefinedVariable;
     
     console.log(undefinedVariable);
+
+![yeah](./public/dance.gif)
 
 ## Objects
 
@@ -158,7 +160,7 @@ Each object above represents a ninja. Each ninja has it own name, age, weight an
 
 ### Initializing objects
 
-An object doesn't necessarily need to be created following the structure shown above. There are other ways to define an object. Here are a couple more ways to do it!
+An object does not necessarily need to be created following the structure shown above. There are other ways to define an object. Here are a couple more ways to do it!
 
     let ninja = new Object();
     
@@ -229,7 +231,7 @@ In this sections we'll talk about Arrays!
 
 An Array is a special data structure. It is used to store multiple values in a single variable.
 
-Arrays are pretty easy to identify, since they always start and end with square brackets ([]). Arrays can hold more than one value at a time, separating all of them with a comma.
+Arrays are pretty easy to identify, since they always start and end with square brackets `[]`. Arrays can hold more than one value at a time, separating all of them with a comma.
 
 So, if we have a list of ninjas, storing those ninjas in single variables would look like this:
 
@@ -269,8 +271,8 @@ It's important to point out that the items that are stored in an array, doesn't 
 ### Accessing the array elements
  
 There's an advantage on using arrays. We can retrieve a particular element of the array by it's index! Let's say we have an array with _n_ elements:
-- The first element of the array is in the 0-th position/index.
-- While the n-th element is in the n-1-th position.
+- The first element of the array is in the `0-th` position/index.
+- While the n-th element is in the `n-1-th` position.
 
 Let's see an example of this:
 
@@ -374,12 +376,27 @@ You can found some of them here!
 - [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Object methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
-## The _this_ keyword
+## _this_
 
+_The Javascript `this` keyword refers to the context in which the current code is executing._ 
 
+Generally we use `this` within methods. In an object method, for example, `this` refers to the owner of the method (i.e. the object). Let's see this in the example below.
+
+    let naruto = {
+      name:     'Naruto',
+      lastName: 'Uzumaki',
+      age:      12,
+      weight:   40,
+      height:   145,
+      fullName: function () {
+        return this.name + " " + this.lastName
+      }
+    };
+
+In this context, `this` refers to the _naruto_ object, and that said, we can access all of its attributes; in this case `name` and `lastName`.
 
 ## The end
 
 The time has come, little Genin. Go on and live your own adventures! ✊🏿
 
-![happy](./public/kurama-fist.gif)
+![happy](./public/deal-with-naruto.gif)
