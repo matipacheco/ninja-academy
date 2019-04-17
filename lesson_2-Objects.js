@@ -54,10 +54,11 @@ ninja.height    = 145;
 
 // console.log(ninja);
 
-/*
-  You can also create objects using {}, it works just like new Object(), 
-  but this way allows to create an object and add properties to it.
-*/
+/****************************************************************************
+ * You can also create objects using {}, it works just like new Object(),
+ * but this way allows to create an object and add properties to it.
+****************************************************************************/
+
 let ninja = {
   name:     'Naruto',
   lastName: 'Uzumaki',
@@ -67,6 +68,11 @@ let ninja = {
 };
 
 // console.log(ninja);
+
+/****************************************************************************
+ * Another way to define an object is by using methods.
+ * I know, we don't know was is that yet, but for now trust me, it works ;)
+ ****************************************************************************/
 
 function Ninja(name, lastName, age, weight, height) {
   this.name     = name;
@@ -80,10 +86,12 @@ ninja = new Ninja('Naruto', 'Uzumaki', 12, 40, 145);
 
 // console.log(ninja);
 
-/*
-  Clases is a new way (or since 2015) to creating objects, 
-  they are a syntactic improvement over JavaScript's existing prototype-based inheritance.
-*/
+/****************************************************************************
+ * Classes is a new way (or since 2015) to creating objects,
+ * they are a syntactic improvement over JavaScript's existing
+ * prototype-based inheritance.
+ ****************************************************************************/
+
 class NinjaClass {
   constructor(name, lastName, age, weight, height) {
     this.name     = name;
