@@ -15,7 +15,7 @@ console.log(100 - 2);
 console.log(100 * 2);
 
 /*
-  The / operator is used for multiplication
+  The / operator is used for division
 */
 console.log(100 / 2);
 
