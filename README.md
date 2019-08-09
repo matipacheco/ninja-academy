@@ -47,7 +47,7 @@ You can add two or more strings!
 
     console.log("My name is Uzumaki Naruto! " + "And one day I'll become Hokage");
 
-You can't multiply a string with a number!
+You *can't* multiply a string with a number!
 
     console.log("My name is Uzumaki Naruto!" * 2);
 
